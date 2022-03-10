@@ -56,13 +56,13 @@ document.getElementById("submit-task").onclick = function () {
 // add remove urgent btn to li 
     let removeUrgentBtn = document.createElement("button");
     removeUrgentBtn.innerHTML = "remove urgent";
-    removeUrgentBtn.className = "btn btn-outline-danger btn-sm delete";
+    removeUrgentBtn.className = "btn btn-outline-danger btn-sm removeurgentbtn darkbtn";
     removeUrgentBtn.setAttribute("onclick","removeUrgent()");
     li.appendChild(removeUrgentBtn);
     //add urgent btn to li 
     let urgentbtn = document.createElement("button");
     urgentbtn.innerHTML = "urgent task";
-    urgentbtn.className = "btn btn-outline-danger btn-sm delete";
+    urgentbtn.className = "btn btn-outline-danger btn-sm urgentbtn urgbtn";
     urgentbtn.setAttribute("onclick","urgentTask()");
     li.appendChild(urgentbtn);
 

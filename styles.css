@@ -15,6 +15,13 @@ background-color: rgba(31, 13, 87, 0.2);
 .urgentbtn{
   float: right;
 }
+.task-urgent>.darkbtn{
+  background-color: white;
+}
+.task-urgent> .urgbtn{
+  background-color: black;
+  color: red;
+}
 .removeurgentbtn{
   float: right;
 }
@@ -72,7 +79,6 @@ background-color: rgba(31, 13, 87, 0.2);
     position: relative;
   }
   .removeurgentbtn {
-  
     font-size: 10px;
     height: 50px;
     width: 50px;
