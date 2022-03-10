@@ -46,3 +46,16 @@ background-color: rgba(31, 13, 87, 0.2);
 .task-urgent > .delete:hover{
   background-color: black;
 }
+@media screen and (max-width:800px) {
+  .delete{
+    position: relative;
+  
+  }
+  .date-field{
+   position: relative;;
+  }
+  .due-date{
+    position: relative;
+  }
+  
+}
