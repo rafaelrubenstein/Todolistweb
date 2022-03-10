@@ -12,6 +12,12 @@ html{
 text-align: center;
 background-color: rgba(31, 13, 87, 0.2);
 }
+.urgentbtn{
+  float: right;
+}
+.removeurgentbtn{
+  float: right;
+}
 .delete{
   float: right;
 
@@ -61,6 +67,19 @@ background-color: rgba(31, 13, 87, 0.2);
    position: relative;;
   }
   .due-date{
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+  .removeurgentbtn {
+  
+    font-size: 10px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+  }
+  .urgentbtn {
+    font-size: 10px;
     height: 50px;
     width: 50px;
     position: relative;
