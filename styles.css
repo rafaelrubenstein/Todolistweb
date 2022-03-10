@@ -48,13 +48,21 @@ background-color: rgba(31, 13, 87, 0.2);
 }
 @media screen and (max-width:800px) {
   .delete{
+    font-size: 10px;
+    height: 50px;
+    width: 50px;
     position: relative;
   
   }
   .date-field{
+    font-size: 10px;
+    height: 50px;
+    width: 50px;
    position: relative;;
   }
   .due-date{
+    height: 50px;
+    width: 50px;
     position: relative;
   }
   
