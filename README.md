@@ -1,5 +1,4 @@
-# cisc-3650-lab
-lab for cisc 3650 
+# to do app
 
 # technologies used 
 - HTML 
