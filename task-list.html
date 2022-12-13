@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js">
+    </script>
+
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="login.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signup.html">Signup</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="task-list.html">Task List</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+    <div class="add-task">
+      <form >
+        <label for="task"> Please enter your task</label><br>
+        <input type="text" name="task" id="task" required><br><br>
+        <input type="button" class="btn btn-primary" value="Add Task" id="submit-task">
+      </form>
+    </div>
+    <ul class="list-group" id="to-do-list">
+        <li class="list-group-item "> <input type="checkbox" onclick="taskCompleted()"> go to class <button
+                class=" btn btn-outline-danger btn-sm delete" onclick="deleteTask()">delete task</button> 
+                <input class="date-field" type="date" onclick="todaysDate()"> <button
+                class="btn btn-outline-danger btn-sm  removeurgentbtn darkbtn" onclick="removeUrgent()">remove urgent</button> <button
+                class="btn btn-outline-danger btn-sm  urgentbtn urgbtn" onclick="urgentTask()">urgent task</button> </li> 
+                </li>
+        <li class="list-group-item task-urgent"> <input type="checkbox" onclick="taskCompleted()"> study for test <button
+                class="btn btn-outline-danger btn-sm delete" onclick="deleteTask()">delete task</button> 
+                <input class="date-field" type="date" onclick="todaysDate()">  <button
+                class="btn btn-outline-danger btn-sm removeurgentbtn darkbtn" onclick="removeUrgent()">remove urgent</button><button
+                class="btn btn-outline-danger btn-sm urgentbtn urgbtn" onclick="urgentTask()">urgent task</button> </li>
+        <li class="list-group-item "> <input type="checkbox" onclick="taskCompleted()"> eat healthy <button
+                class="btn btn-outline-danger btn-sm delete" onclick="deleteTask()">delete task</button>
+                <input class="date-field" type="date" onclick="todaysDate()">  <button
+                class="btn btn-outline-danger btn-sm removeurgentbtn darkbtn" onclick="removeUrgent()">remove urgent</button><button
+                class="btn btn-outline-danger btn-sm urgentbtn urgbtn" onclick="urgentTask()">urgent task</button> </li></li>
+    </ul>
+
+    <script type="text/javascript" src="script.js">
+    </script>
+
+</body>
+
+</html>
