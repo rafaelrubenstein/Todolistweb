@@ -4,6 +4,8 @@
 - HTML 
 - CSS
 - Javascript
+- PHP 
+
 # Use 
 basic to do list with the ability to set a date, urgency, check off tasks, delete tasks. 
 
@@ -11,6 +13,4 @@ basic to do list with the ability to set a date, urgency, check off tasks, delet
 - add some backend functionality
 - maybe add ability for users to log in and see there tasks 
 
-# refrences 
-https://stackoverflow.com/questions/71416188/adding-style-to-li-elements-if-checkbox-is-checked/71416577#71416577
 
